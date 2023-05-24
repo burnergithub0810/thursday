@@ -1,0 +1,104 @@
+------------------------------------------------------------------------
+Count:1 Event#3.22506 2020-02-21 00:53 UTC
+GPL SCAN loopback traffic
+0.0.0.0 -> 255.255.255.255
+IPVer=4 hlen=5 tos=0 dlen=367 ID=10478 flags=0 offset=0 ttl=128 chksum=4241
+Protocol: 17 sport=68 -> dport=67
+
+len=347 chksum=38855
+------------------------------------------------------------------------
+Count:1 Event#3.22507 2020-02-21 00:53 UTC
+ET POLICY Reserved Internal IP Traffic
+172.17.8.8 -> 172.17.8.174
+IPVer=4 hlen=5 tos=16 dlen=328 ID=0 flags=0 offset=0 ttl=16 chksum=16573
+Protocol: 17 sport=67 -> dport=68
+
+len=308 chksum=18345
+------------------------------------------------------------------------
+Count:1 Event#3.22508 2020-02-21 00:53 UTC
+ET POLICY Reserved Internal IP Traffic
+172.17.8.174 -> 172.17.8.8
+IPVer=4 hlen=5 tos=0 dlen=83 ID=17118 flags=0 offset=0 ttl=128 chksum=36579
+Protocol: 17 sport=64898 -> dport=53
+
+len=63 chksum=21132
+------------------------------------------------------------------------
+Count:10 Event#3.22509 2020-02-21 00:53 UTC
+ET DNS Standard query response, Name Error
+172.17.8.8 -> 172.17.8.174
+IPVer=4 hlen=5 tos=0 dlen=174 ID=65395 flags=0 offset=0 ttl=128 chksum=53746
+Protocol: 17 sport=53 -> dport=63374
+
+len=154 chksum=38821
+------------------------------------------------------------------------
+Count:5 Event#3.22513 2020-02-21 00:53 UTC
+GPL RPC kerberos principal name overflow TCP
+172.17.8.174 -> 172.17.8.8
+IPVer=4 hlen=5 tos=0 dlen=288 ID=17159 flags=2 offset=0 ttl=128 chksum=19960
+Protocol: 6 sport=49675 -> dport=88
+
+Seq=2893075307 Ack=1265556632 Off=5 Res=0 Flags=***AP*** Win=8212 urp=48786 chksum=0
+------------------------------------------------------------------------
+Count:3 Event#3.22523 2020-02-21 00:55 UTC
+ET POLICY Binary Download Smaller than 1 MB Likely Hostile
+49.51.172.56 -> 172.17.8.174
+IPVer=4 hlen=5 tos=0 dlen=1268 ID=0 flags=0 offset=0 ttl=0 chksum=9178
+Protocol: 6 sport=80 -> dport=49731
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=39173 chksum=0
+------------------------------------------------------------------------
+Count:37 Event#3.22526 2020-02-21 00:55 UTC
+ET POLICY PE EXE or DLL Windows file download HTTP
+49.51.172.56 -> 172.17.8.174
+IPVer=4 hlen=5 tos=0 dlen=1268 ID=0 flags=0 offset=0 ttl=0 chksum=9178
+Protocol: 6 sport=80 -> dport=49731
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=39173 chksum=0
+------------------------------------------------------------------------
+Count:37 Event#3.22563 2020-02-21 00:55 UTC
+ET CURRENT_EVENTS WinHttpRequest Downloading EXE
+49.51.172.56 -> 172.17.8.174
+IPVer=4 hlen=5 tos=0 dlen=1268 ID=0 flags=0 offset=0 ttl=0 chksum=9178
+Protocol: 6 sport=80 -> dport=49731
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=39173 chksum=0
+------------------------------------------------------------------------
+Count:37 Event#3.22600 2020-02-21 00:55 UTC
+ET CURRENT_EVENTS Likely Evil EXE download from WinHttpRequest non-exe extension
+49.51.172.56 -> 172.17.8.174
+IPVer=4 hlen=5 tos=0 dlen=1268 ID=0 flags=0 offset=0 ttl=0 chksum=9178
+Protocol: 6 sport=80 -> dport=49731
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=39173 chksum=0
+------------------------------------------------------------------------
+Count:4 Event#3.22645 2020-02-21 01:11 UTC
+ET TROJAN ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex)
+91.211.88.122 -> 172.17.8.174
+IPVer=4 hlen=5 tos=0 dlen=1441 ID=0 flags=0 offset=0 ttl=0 chksum=19531
+Protocol: 6 sport=443 -> dport=49760
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=26230 chksum=0
+------------------------------------------------------------------------
+Count:47 Event#3.22650 2020-02-21 01:14 UTC
+ET POLICY ZIP file download
+205.185.216.42 -> 172.17.8.174
+IPVer=4 hlen=5 tos=0 dlen=1268 ID=0 flags=0 offset=0 ttl=0 chksum=23393
+Protocol: 6 sport=80 -> dport=49787
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=62949 chksum=0
+------------------------------------------------------------------------
+Count:10 Event#3.22697 2020-02-21 01:14 UTC
+ET POLICY ZIPPED EXE in transit
+205.185.216.42 -> 172.17.8.174
+IPVer=4 hlen=5 tos=0 dlen=1268 ID=0 flags=0 offset=0 ttl=0 chksum=23393
+Protocol: 6 sport=80 -> dport=49795
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=32148 chksum=0
+------------------------------------------------------------------------
+Count:36 Event#3.22707 2020-02-21 01:14 UTC
+ET POLICY ZIP file download
+23.1.236.92 -> 172.17.8.174
+IPVer=4 hlen=5 tos=0 dlen=1033 ID=0 flags=0 offset=0 ttl=0 chksum=65234
+Protocol: 6 sport=80 -> dport=49806
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=28094 chksum=0
